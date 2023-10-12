@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Prefabs\SpherePrefab.cpp" />
+    <ClCompile Include="Prefabs\TorusPrefab.cpp" />
+    <ClCompile Include="Prefabs\CubePrefab.cpp" />
+    <ClCompile Include="Scenes\PortalTestScene.cpp" />
+    <ClCompile Include="Prefabs\BoneObject.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\PortalMaterial.cpp" />
+    <ClCompile Include="Prefabs\Character.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow_Skinned.cpp" />
+    <ClCompile Include="Components\PortalComponent.cpp" />
+    <ClCompile Include="Components\ChellAnimator.cpp" />
+    <ClCompile Include="Components\ShootComponent.cpp" />
+    <ClCompile Include="Materials\Post\PostVignette.cpp" />
+    <ClCompile Include="Scenes\MainMenu.cpp" />
+    <ClCompile Include="Components\UIButtonComponent.cpp" />
+    <ClCompile Include="Scenes\ControlsScene.cpp" />
+    <ClCompile Include="Components\PickUpComponent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Prefabs\SpherePrefab.h" />
+    <ClInclude Include="Prefabs\TorusPrefab.h" />
+    <ClInclude Include="Prefabs\CubePrefab.h" />
+    <ClInclude Include="Scenes\PortalTestScene.h" />
+    <ClInclude Include="Prefabs\BoneObject.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\PortalMaterial.h" />
+    <ClInclude Include="Prefabs\Character.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow_Skinned.h" />
+    <ClInclude Include="Components\PortalComponent.h" />
+    <ClInclude Include="Components\ChellAnimator.h" />
+    <ClInclude Include="Components\ShootComponent.h" />
+    <ClInclude Include="Components\IgnorePortalDraw.h" />
+    <ClInclude Include="Materials\Post\PostVignette.h" />
+    <ClInclude Include="Scenes\MainMenu.h" />
+    <ClInclude Include="Components\UIButtonComponent.h" />
+    <ClInclude Include="Scenes\ControlsScene.h" />
+    <ClInclude Include="Components\PickUpComponent.h" />
+  </ItemGroup>
+</Project>
